@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-display: swap;
+  src:
+    url('fonts/Roboto-Medium.woff') format('woff'),
+    url('fonts/Roboto-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Roboto';
+  line-height: 1.4;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  touch-action: manipulation;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  padding-top: 4.5rem;
+  scroll-padding-top: 3.5rem;
+  margin: 0;
+}
+
+header {
+  padding-top: 9.5rem;
+  padding-bottom: 6rem;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+  overflow: visible;
+}
+
+section {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+.list-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.bg-featured-blog {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 15rem;
+}
+
+body {
+  background-color: #ce3635;
+  text-align: center;
+  color: #fff;
+  padding-top: 10em;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2px;
+  margin: 0 auto;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
