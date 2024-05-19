@@ -17,7 +17,7 @@
             <a class="nav-link active" aria-current="page" href="#">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://indra87g-blog.vercel.app">Blog</a>
+            <a class="nav-link" href="https://indra87g.hashnode.dev/">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://indra87g.000webhostapp.com">Guestbook</a>
